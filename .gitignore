@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Dataset (too large for GitHub - download separately)
+ECG_Signals_Dataset/
+*.csv
+
+# Generated files
+processed/
+models/
+*.npz
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
